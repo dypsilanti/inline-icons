@@ -5,7 +5,7 @@
 }
 */
 
-@mixin icon-style {
+@mixin svg-style {
 display: inline-block;
 font-family: "canvas-icons";
 line-height: 1;
@@ -13,167 +13,173 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 margin-right: 10px;
 transform: scale(1.33);
-vertical-align: top;}
+vertical-align: 10%;}
+
+@mixin png-style {
+display: inline-block;
+margin-right: 10px;
+vertical-align: 10%;
+}
 
 #wiki_page_show { 
 p.access {
 	&:before {
 	content: url("img/inline_icons/access.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.assignment {
 	&:before {
 	color: #37a537;
 	content: "\F1C2";
-	@include icon-style;}}
+	@include svg-style;}}
 p.book {
 	&:before {
 	color:#a22c43;
 	content: "\F1B7";
-	@include icon-style;}}
+	@include svg-style;}}
 p.cert {
 	&:before {
 	color:black;
 	content: "\F19F";
-	@include icon-style;}}
+	@include svg-style;}}
 p.discussion {
 	&:before {
 	color:#496FC0;
 	content: "\F220";
-	@include icon-style;}}
+	@include svg-style;}}
 p.doc {
 	&:before {
 	color:#150db5;
 	content: "\F1F6";
-	@include icon-style;}}
+	@include svg-style;}}
 p.download {
 	&:before {
 	color:black;
 	content: "\F234";
-	@include icon-style;}}
+	@include svg-style;}}
 p.exam {
 	&:before {
 	color:black;
 	content: "\F21A";
-	@include icon-style;}}
+	@include svg-style;}}
 p.fb {
 	&:before {
 	color:#496ebf;
 	content: "\F1D2";
-	@include icon-style;}}
+	@include svg-style;}}
 p.hours {
 	&:before {
 	color:#37a537;
 	content: "\F19A";
-	@include icon-style;}}
+	@include svg-style;}}
 p.icon_list {
 	&:before {
 	content: url("img/icon_list.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.lecture {
 	&:before {
 	content: url("img/inline_icons/lecture-icon.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.link {
 	&:before {
 	color:black;
 	content: "\F1E3";
-	@include icon-style;}}
+	@include svg-style;}}
 p.mail {
 	&:before {
 	color:black;
 	content: "\F233";
-	@include icon-style;}}
+	@include svg-style;}}
 p.meeting {
 	&:before {
 	color:#496ebf;
 	content: "\F1D9";
-	@include icon-style;}}
+	@include svg-style;}}
 p.mindomo {
 	&:before {
 	content: url("img/inline_icons/mindomo.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.pages {
 	&:before {
 	color:black;
 	content: "\F1CB";
-	@include icon-style;}}
+	@include svg-style;}}
 p.pdf {
 	&:before {
 	color:#d90000;
 	content: "\F200";
-	@include icon-style;}}
+	@include svg-style;}}
 p.phone {
 	&:before {
 	content: url("img/inline_icons/phone-icon.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.ppt {
 	&:before {
 	color:#f36b03;
 	content: "\F1F5";
-	@include icon-style;}}
+	@include svg-style;}}
 p.question {
 	&:before {
 	color:#f50f0f;
 	content: "\F194";
-	@include icon-style;}}
+	@include svg-style;}}
 p.quiz,p.quizzes_tap {
 	&:before {
 	color:#000000;
 	content: "\F190";
-	@include icon-style;}}
+	@include svg-style;}}
 p.rss {
 	&:before {
 	color:#f36b03;
 	content: "\F20D";
-	@include icon-style;}}
+	@include svg-style;}}
 p.self_test, p.tests {
 	&:before {
 	color:#37a537;
 	content: "\F1CE";
-	@include icon-style;}}
+	@include svg-style;}}
 p.settings {
 	&:before {
 	color:#383838;
 	content: "\f19e";
-	@include icon-style;}}
+	@include svg-style;}}
 p.skype {
 	&:before {
 	color:#12a5f4;
 	content: "\F213";
-	@include icon-style;}}
+	@include svg-style;}}
 p.smiley {
 	&:before {
 	content: url("img/inline_icons/smiley-icon.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.storify {
 	&:before {
 	content: url("img/inline_icons/storify-icon.png");
-	@include icon-style;}}
+	@include png-style;}}
 p.team {
 	&:before {
 	color:#d90000;
 	content: "\F1D7";
-	@include icon-style;}}
+	@include svg-style;}}
 p.twitter {
 	&:before {
 	color:#4099ff;
 	content: "\F21E";
-	@include icon-style;}}
+	@include svg-style;}}
 p.video, p.youtube {
 	&:before {
 	color:black;
 	content: "\F1D3";
-	@include icon-style;}}
+	@include svg-style;}}
 p.xls {
 	&:before {
 	color:#07532b;
 	content: "\F1F4";
-	@include icon-style;}}
+	@include svg-style;}}
 p.zip {
 	&:before {
 	color:black;
 	content: "\F1A8";
-	@include icon-style;}}
+	@include svg-style;}}
 	
 li>a[href $= ".pdf"],
 li>a[href $= ".PDF"], 
@@ -190,7 +196,7 @@ li a[title $= ".PDF?"] {
 	&:before {	
 	color:#d90000;
 	content: "\f200";
-	@include icon-style;}}
+	@include svg-style;}}
 	
 li>a[href $= ".doc"],
 li>a[href $= ".DOC"],
@@ -203,7 +209,7 @@ li a[title $= ".DOCX"] {
 	&:before {	
 	color:#150db5;
 	content: "\f1f6";
-	@include icon-style;}}
+	@include svg-style;}}
 	
 li>a[href $= ".xls"],
 li>a[href $= ".XLS"],
@@ -224,7 +230,7 @@ li a[title $= ".XLSB"] {
 	&:before {	
 	color:#07532b;
 	content: "\f1f4"; 
-	@include icon-style;}}
+	@include svg-style;}}
 	
 li>a[href $= ".ppt"],
 li>a[href $= ".PPT"],
@@ -245,7 +251,7 @@ li a[title $= ".PPSX"] {
 	&:before {
 	color:#f36b03;
 	content: "\f1f5"; 
-	@include icon-style;}}
+	@include svg-style;}}
 	
 li>a[href $= ".zip"],
 li>a[href $= ".ZIP"],
@@ -254,7 +260,7 @@ li a[title $= ".ZIP"] {
 	&:before {	
 	color:#424242;
 	content: "\f1a8"; 
-	@include icon-style;}}
+	@include svg-style;}}
 
 li>a[href $= ".rss"],
 li>a[href $= ".RSS"],
@@ -263,7 +269,7 @@ li a[title $= ".RSS"] {
 	&:before {	
 	color:#eb8e00;
 	content: "\f20d";
-	@include icon-style;}}
+	@include svg-style;}}
 
 li>a[href ^= "mailto:"],
 li>a[href ^= "MAILTO:"],
@@ -272,7 +278,7 @@ li a[title ^= "MAILTO:"] {
 	&:before {	
 	color: black;
 	content: "\f233";
-	@include icon-style;}}
+	@include svg-style;}}
 
 li>a[href ^= "youtube.com"],
 li>a[href ^= "www.youtube.com"],  
@@ -295,6 +301,6 @@ li a[title ^= "https://warrington.video.ufl.edu"] {
 	&:before {	
 	color: black;
 	content: "\f1d3"; 
-	@include icon-style;}}	
+	@include svg-style;}}	
 	
 } //END #wiki_page_show
