@@ -168,7 +168,8 @@ p.video {
 p.youtube {
 	&:before {
 	content: url("img/inline_icons/youtube.png");
-	@include png-style;}}
+	@include png-style;
+	vertical-align: -5%;}}
 p.xls {
 	&:before {
 	color:#07532b;
