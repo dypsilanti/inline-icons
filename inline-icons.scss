@@ -61,6 +61,10 @@ p.fb {
 	color:#496ebf;
 	content: "\F1D2";
 	@include svg-style;}}
+p.feedback {
+	&:before {
+	content: url("img/inline_icons/feedback.png");
+	@include png-style;}}
 p.hours {
 	&:before {
 	color:#37a537;
