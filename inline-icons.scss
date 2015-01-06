@@ -88,6 +88,10 @@ p.mail {
 	color:black;
 	content: "\F233";
 	@include svg-style;}}
+p.c-mail {
+	&:before {
+	content: url('img/inline_icons/canvas-mail.png');
+	@include png-style;}}
 p.meeting {
 	&:before {
 	color:#496ebf;
