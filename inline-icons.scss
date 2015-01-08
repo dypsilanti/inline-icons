@@ -1,12 +1,12 @@
 @mixin svg-style {
-display: inline-block;
-font-family: "canvas-icons";
-line-height: 1;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-margin-right: 10px;
-transform: scale(1.33);
-vertical-align: 10%;}
+	display: inline-block;
+	font-family: "canvas-icons";
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-right: 10px;
+	font-size: 1.35em;
+}
 
 @mixin png-style {
 	display: inline-block;
