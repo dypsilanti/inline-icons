@@ -9,11 +9,11 @@ transform: scale(1.33);
 vertical-align: 10%;}
 
 @mixin png-style {
-display: inline-block;
-margin-right: 5px;
-vertical-align: -25%;
-position: relative;
-left: -3px;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: -25%;
+	position: relative;
+	left: -3px;
 }
 
 #wiki_page_show { 
