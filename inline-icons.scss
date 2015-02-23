@@ -24,42 +24,42 @@ p.access {
 p.assignment {
 	&:before {
 	color: #37a537;
-	content: "\F1C2";
+	content: "\f10c";
 	@include svg-style;}}
 p.book {
 	&:before {
 	color:#a22c43;
-	content: "\F1B7";
+	content: "\f10e";
 	@include svg-style;}}
 p.cert {
 	&:before {
 	color:black;
-	content: "\F19F";
+	content: "\f190";
 	@include svg-style;}}
 p.discussion {
 	&:before {
 	color:#496FC0;
-	content: "\F220";
+	content: "\f11e";
 	@include svg-style;}}
 p.doc {
 	&:before {
 	color:#150db5;
-	content: "\F1F6";
+	content: "\f165";
 	@include svg-style;}}
 p.download {
 	&:before {
 	color:black;
-	content: "\F234";
+	content: "\f127";
 	@include svg-style;}}
 p.exam {
 	&:before {
 	color:black;
-	content: "\F21A";
+	content: "\f189";
 	@include svg-style;}}
 p.fb {
 	&:before {
 	color:#496ebf;
-	content: "\F1D2";
+	content: "\f134";
 	@include svg-style;}}
 p.feedback {
 	&:before {
@@ -68,7 +68,7 @@ p.feedback {
 p.hours {
 	&:before {
 	color:#37a537;
-	content: "\F19A";
+	content: "\f17f";
 	@include svg-style;}}
 p.icon_list {
 	&:before {
@@ -81,12 +81,12 @@ p.lecture {
 p.link {
 	&:before {
 	color:black;
-	content: "\F1E3";
+	content: "\f151";
 	@include svg-style;}}
 p.mail {
 	&:before {
 	color:black;
-	content: "\F233";
+	content: "\f12c";
 	@include svg-style;}}
 p.c-mail {
 	&:before {
@@ -95,7 +95,7 @@ p.c-mail {
 p.meeting {
 	&:before {
 	color:#496ebf;
-	content: "\F1D9";
+	content: "\f142";
 	@include svg-style;}}
 p.mindomo {
 	&:before {
@@ -104,12 +104,12 @@ p.mindomo {
 p.pages {
 	&:before {
 	color:black;
-	content: "\F1CB";
+	content: "\f126";
 	@include svg-style;}}
 p.pdf {
 	&:before {
 	color:#d90000;
-	content: "\F200";
+	content: "\f170";
 	@include svg-style;}}
 p.phone {
 	&:before {
@@ -118,37 +118,37 @@ p.phone {
 p.ppt {
 	&:before {
 	color:#f36b03;
-	content: "\F1F5";
+	content: "\f164";
 	@include svg-style;}}
 p.question {
 	&:before {
 	color:#f50f0f;
-	content: "\F194";
+	content: "\f179";
 	@include svg-style;}}
 p.quiz,p.quizzes_tap {
 	&:before {
 	color:#000000;
-	content: "\F190";
+	content: "\f17a";
 	@include svg-style;}}
 p.rss {
 	&:before {
 	color:#f36b03;
-	content: "\F20D";
+	content: "\f186";
 	@include svg-style;}}
 p.self_test, p.tests {
 	&:before {
 	color:#37a537;
-	content: "\F1CE";
+	content: "\f189";
 	@include svg-style;}}
 p.settings {
 	&:before {
 	color:#383838;
-	content: "\f19e";
+	content: "\f18c";
 	@include svg-style;}}
 p.skype {
 	&:before {
 	color:#12a5f4;
-	content: "\F213";
+	content: "\f18e";
 	@include svg-style;}}
 p.smiley {
 	&:before {
@@ -161,17 +161,17 @@ p.storify {
 p.team {
 	&:before {
 	color:#d90000;
-	content: "\F1D7";
+	content: "\f142";
 	@include svg-style;}}
 p.twitter {
 	&:before {
 	color:#4099ff;
-	content: "\F21E";
+	content: "\f1a2";
 	@include svg-style;}}
 p.video {
 	&:before {
 	color:black;
-	content: "\F1D3";
+	content: "\f1ad";
 	@include svg-style;}}
 p.youtube {
 	&:before {
@@ -181,12 +181,12 @@ p.youtube {
 p.xls {
 	&:before {
 	color:#07532b;
-	content: "\F1F4";
+	content: "\f163";
 	@include svg-style;}}
 p.zip {
 	&:before {
 	color:black;
-	content: "\F1A8";
+	content: "\f1b2";
 	@include svg-style;}}
 	
 li>a[href $= ".pdf"],
@@ -203,7 +203,7 @@ li a[title $= ".pdf?"],
 li a[title $= ".PDF?"] {
 	&:before {	
 	color:#d90000;
-	content: "\f200";
+	content: "\f170";
 	@include svg-style;}}
 	
 li>a[href $= ".doc"],
@@ -216,7 +216,7 @@ li a[title $= ".docx"],
 li a[title $= ".DOCX"] {
 	&:before {	
 	color:#150db5;
-	content: "\f1f6";
+	content: "\f165";
 	@include svg-style;}}
 	
 li>a[href $= ".xls"],
@@ -237,7 +237,7 @@ li a[title $= ".xlsb"],
 li a[title $= ".XLSB"] {
 	&:before {	
 	color:#07532b;
-	content: "\f1f4"; 
+	content: "\f163"; 
 	@include svg-style;}}
 	
 li>a[href $= ".ppt"],
@@ -258,7 +258,7 @@ li a[title $= ".ppsx"],
 li a[title $= ".PPSX"] {
 	&:before {
 	color:#f36b03;
-	content: "\f1f5"; 
+	content: "\f164"; 
 	@include svg-style;}}
 	
 li>a[href $= ".zip"],
@@ -267,7 +267,7 @@ li a[title $= ".zip"],
 li a[title $= ".ZIP"] {
 	&:before {	
 	color:#424242;
-	content: "\f1a8"; 
+	content: "\f1b2"; 
 	@include svg-style;}}
 
 li>a[href $= ".rss"],
@@ -276,7 +276,7 @@ li a[title $= ".rss"],
 li a[title $= ".RSS"] {
 	&:before {	
 	color:#eb8e00;
-	content: "\f20d";
+	content: "\f186";
 	@include svg-style;}}
 
 li>a[href ^= "mailto:"],
@@ -285,7 +285,7 @@ li a[title ^= "mailto:"],
 li a[title ^= "MAILTO:"] {
 	&:before {	
 	color: black;
-	content: "\f233";
+	content: "\f12c";
 	@include svg-style;}}
 
 li>a[href ^= "youtube.com"],
@@ -308,7 +308,7 @@ li a[title ^= "warrington.video.ufl.edu"],
 li a[title ^= "https://warrington.video.ufl.edu"] {
 	&:before {	
 	color: black;
-	content: "\f1d3"; 
+	content: "\f1ad"; 
 	@include svg-style;}}	
 	
 } //END #wiki_page_show
