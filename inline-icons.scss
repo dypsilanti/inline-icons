@@ -305,6 +305,7 @@ li a[title ^= "www.vimeo.com"],
 li a[title ^= "http://www.vimeo.com"],
 li a[title $= "videolectures.asp"], 
 li a[title ^= "warrington.video.ufl.edu"],
+li a[title ^= "http://warrington.video.ufl.edu"],
 li a[title ^= "https://warrington.video.ufl.edu"] {
 	&:before {	
 	color: black;
