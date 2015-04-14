@@ -36,6 +36,10 @@ p.cert {
 	color:black;
 	content: "\f190";
 	@include svg-style;}}
+p.digging {
+	&:before {
+	content: url("img/inline_icons/digging.png");
+	@include png-style;}}
 p.discussion {
 	&:before {
 	color:#496FC0;
