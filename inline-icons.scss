@@ -10,10 +10,9 @@
 
 @mixin png-style {
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 10px;
 	vertical-align: -25%;
 	position: relative;
-	left: -3px;
 }
 
 #wiki_page_show { 
@@ -180,8 +179,7 @@ p.video {
 p.youtube {
 	&:before {
 	content: url("img/inline_icons/youtube.png");
-	@include png-style;
-	vertical-align: -5%;}}
+	@include png-style;}}
 p.xls {
 	&:before {
 	color:#07532b;
